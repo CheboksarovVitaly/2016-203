@@ -15,7 +15,6 @@ void cheboksarovv::lab1()
        {
         A[i][j]-=A[k][j]*koefc;  
        }
-       x[i]=x[i]-koefc*x[k];
       }      
      }
      cout<<endl;
